@@ -21,8 +21,9 @@ header{
 
 #bio-image{
     float: left;
-    transform: rotate(-90deg)
-
+    transform: rotate(-90deg);
+    margin: 5px;
+    margin: 3px;
 }
 
 h1{
@@ -55,12 +56,6 @@ h2{
 
 }
 
-#bio-image{
-    float: left;
-    margin: 5px;
-    margin: 3px;
-    
-}
 
 .content{
     width: 100%;
@@ -105,7 +100,7 @@ p{
     opacity: 1;
     bottom: 10px;
     font-size: 10px;
-    width:100%;
+    width:128px;
     opacity: 0.85;
 
     
