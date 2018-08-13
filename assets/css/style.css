@@ -1,13 +1,14 @@
 *{
 box-sizing: border-box;
-border: solid red 8px;
 max-width: 960px;
 
 }
 
 body{
     background-color: #ffffff;
-
+    margin: 0px;
+    background: url("https://static.vecteezy.com/system/resources/previews/000/119/257/non_2x/gray-paper-texture-background-vector.jpg") no-repeat center fixed;
+    background-size: cover;
 }
 
 header{
@@ -31,6 +32,16 @@ h1{
     float: left;
     background-color:#4aaaa5;
     padding:20px 15px;
+    margin: 0%;
+
+}
+
+h2{
+    color: #4aaaa5;
+    border-bottom: solid #cccccc 3px;
+    padding-bottom: 20px;
+
+    
 
 }
 
@@ -39,7 +50,31 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     float: right;
-    padding: 20px;
+    padding: 28px;
+
+
+}
+
+#bio-image{
+    float: left;
+    margin: 5px;
+    margin: 3px;
+    
+}
+
+.content{
+    width: 100%;
+    background-color: white;
+    border: solid #cccccc 1px;
+    margin-top: 20px;
+    padding: 30px 25px;
+}
+
+.button{
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
 
 
 }
@@ -49,5 +84,58 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     text-indent: 2em;
+    line-height: 1.5;
 
+}
+
+.image-text{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    margin: 0;
+    display: block;
+    
+}
+
+.pic-caption{
+    position: absolute;
+    padding: 5px 0px;
+    color: white;
+    background-color: #4aaaa5;
+    opacity: 1;
+    bottom: 10px;
+    font-size: 10px;
+    width:100%;
+    opacity: 0.85;
+
+    
+}
+
+.picture{
+    padding:0px;
+}
+
+/* creates 3 columns equal */
+.column {
+    float: left;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.foots{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+footer{
+    background-color: darkslategrey;
+    margin: 65px 0px 0px;
+    border-top: solid #4aaaa5 3px;
 }
